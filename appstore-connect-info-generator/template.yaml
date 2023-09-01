@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Generate app description
+Resources:
+  GenerateAppDescriptionFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.generate_app_description
+      Runtime: python3.11
+      Events:
+        HttpPost:
+          Type: Api
+          Properties:
+            Path: /generate-app-description
+            Method: post
