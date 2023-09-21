@@ -3,6 +3,12 @@ This repository contains a set of Jupyter notebooks created by the [BlueLabel](h
 
 Each folder in the repository represents a separate tool and within it you will find a README.md file describing its purpose and how to run it. While this cookbook only contains Jupyter notebooks, some of these tools also have their own source code repositories where the complete source code for them can be found.
 
+## Instagram Post Classifier
+Demonstrates how to classify a large data set of Instagram post captions into a set of normalized, unique topics.
+
+## Instagram Reel -> YouTube Short Title Converter
+Demonstrates how to use GPT with Langchain to take Instagram post captions and create snappy YouTube Short Titles that are engaging and also relevant to the content it is trying to describe.
+
 ## AutoTweeter
 The [AutoTweeter](https://github.com/bll-bobbygill/bll-ai-cookbook/tree/main/auto-tweeter) notebook demonstrates how to use ChatGPT, LangChain, and Reddit to fully automate research and creation of content for a user's Twitter feed.
 
