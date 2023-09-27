@@ -1,5 +1,0 @@
-gradio==3.42.0
-langchain==0.0.249
-openai==0.27.8
-pinecone-client==2.2.2
-python-dotenv==1.0.0
